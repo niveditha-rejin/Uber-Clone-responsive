@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #363635;
+}
+.btn-blk{
+  background-color: black;
+  border: none;
+}
+.btn-blk:hover{
+  background-color: #363635;
+}
+.go{
+    font-size: 3em;
+}
+
+  .body-banner{
+    display: flex;
+    justify-content: right;
+    height: 90%;
+    width: 90%;
+  }
+  .cards{
+    background-color: #edefeb;
+  }
+  .card-text{
+    font-size: .80em;
+  }
+  a{
+    text-decoration: none;
+  }
+  .footer-txt{
+    font-size: .80em;
+    color: #75757a;
+  }
+  .button-border:hover{
+    border: 1px solid #040404;  
+    border-bottom: #040404;
+  }
+  .qrcode{
+      background-color: #ebebea;
+  }
+
+  .qr-code-img {
+    content: url('icons/Uber-App.webp');
+}
+
+/* Media Query to change the uber app image */
+@media (max-width: 990px) {
+    .qr-code-img {
+        content: url('icons/uber.png'); 
+        border-radius: 30%;
+        height: 85px;
+        width: 85px;
+    }
+    .card-text1{
+      display: none;
+    }
+}
+
+
+.driver-app-img {
+  content: url('icons/uber-driver-app.webp');
+}
+
+/* Media Query to change the driver app image */
+@media (max-width: 990px) {
+  .driver-app-img {
+      content: url('icons/uber-driver.png'); 
+      border-radius: 30%;
+        height: 85px;
+        width: 85px;
+  }
+  .card-text1{
+    display: none;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .navbar-collapse {
+      background-color: rgb(255, 255, 255); 
+      color: #000000; 
+  }
+
+  .container .navbar-nav .nav-item .nav-link {
+      font-size: 2rem; 
+      color: #000000; 
+      font-weight: bold;
+  }
+  #nav-link1 {
+    font-size: 1rem; 
+    color: #000000; 
+    font-weight: bold;
+}
+
+  .navbar-nav .nav-link:hover {
+      background-color: white; 
+  }
+}
+.icon-hamburger {
+  display: block; 
+}
+.icon-hamburger:hover {
+  background-color: #363635;
+  border-radius: 50%;
+}
+.icon-close {
+  display: none; 
+}
+
+.icon-hamburger.hidden,
+.icon-close.visible {
+  display: none;
+}
+
+.navbar-toggler.opened .navbar-toggler-icon {
+  display: none; 
+}
+
+.navbar-toggler.opened .close-icon {
+  display: block; 
+}
+
+
+
